@@ -13,6 +13,7 @@
 - [CSS 전처리기](#CSS-전처리기)
 - [코딩 스타일 가이드](#코딩-스타일-가이드)
 - [폴더 구조](#폴더-구조)
+- [설치 및 실행](#설치-및-실행)
 - [프로젝트 설정 과정](#프로젝트-설정-과정)
 
 ## 개발 환경
@@ -103,6 +104,14 @@ src
 --| store       // configureStore
 --| utils       // utility functions
 
+```
+## 설치 및 실행
+
+```sh
+git clone https://github.com/kjk7034/create-react-app-typescript.git
+cd create-react-app-typescript
+yarn
+yarn start
 ```
 
 ## 프로젝트 설정 과정
