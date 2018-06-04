@@ -1,0 +1,7 @@
+{
+  "editor.formatOnSave": true,
+  "[markdown]": {
+    "editor.formatOnSave": false
+  },
+  "tslint.autoFixOnSave": true
+}

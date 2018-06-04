@@ -1,0 +1,106 @@
+.application {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: red;
+}
+
+.navi {
+  display: flex;
+  flex-direction: row;
+  li {
+    display: flex;
+    flex: 1;
+    border: 1px solid red;
+  }
+  a {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+  }
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.App-container {
+  min-height: 500px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid red;
+}
+
+.App-footer {
+  background-color: #222;
+  padding: 20px;
+  margin-top: 20px;
+  color: #fff;
+}
+
+.activityIndicator {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  .spinner,
+  .spinner::after {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -25px;
+    margin-top: -25px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border-top: 10px solid rgba(0, 0, 0, 0.2);
+    border-right: 10px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 10px solid rgba(0, 0, 0, 0.2);
+    border-left: 10px solid #000;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-animation: activityIndicator 1.1s infinite linear;
+    animation: activityIndicator 1.1s infinite linear;
+  }
+  @-webkit-keyframes activityIndicator {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes activityIndicator {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+}

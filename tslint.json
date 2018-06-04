@@ -1,0 +1,27 @@
+{
+  "extends": [
+    "tslint:recommended",
+    "tslint-react",
+    "tslint-config-prettier",
+    "tslint-config-airbnb"
+  ],
+  "linterOptions": {
+    "exclude": ["config/**/*.js", "node_modules/**/*.ts"]
+  },
+  "rules": {
+    "no-console": false,
+    "import-name": false,
+    "semicolon": false,
+    "ter-arrow-parens": [true, "as-needed", { "requireForBlockBody": false }],
+    "trailing-comma": true,
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-pascal-case"
+    ],
+    "object-literal-sort-keys": false,
+    "interface-over-type-literal": false,
+    "interface-name": false
+  }
+}
