@@ -123,5 +123,4 @@ src
 * Adding a Router
 * Adding HMR
 * Adding redux
-* Adding immutable
-* Other additions
+* Adding another npm

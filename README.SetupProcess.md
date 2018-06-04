@@ -6,19 +6,19 @@
 
 - [create react app typescript](#create-react-app-typescript)
 - [npm run eject](#npm-run-eject)
-- [Formatting Code Automatically](#Formatting-Code-Automatically)
-- [Prettier/Editor is VSCode](#Prettier/Editor-is-VSCode)
-- [Adding Airbnb JavaScript Style Guide](#Adding-Airbnb-JavaScript-Style-Guide)
-- [Changing the Page `<title>`](#Changing-the-Page-`<title>`)
-- [Code Splitting](#Code-Splitting)
-- [Adding a CSS Preprocessor Sass](#Adding-a-CSS-Preprocessor-Sass)
-- [Setting default port](#Setting-default-port)
-- [Proxying API Requests in Development](#Proxying-API-Requests-in-Development)
-- [Using HTTPS in Development](#Using-HTTPS-in-Development)
-- [Adding a Router](#Adding-a-Router)
-- [Adding HMR](#Adding-HMR)
-- [Adding redux](#Adding-redux)
-- [Other additions](#Other-additions)
+- [Formatting Code Automatically](#formatting-code-automatically)
+- [Prettier/Editor is VSCode](#prettiereditor-is-vscode)
+- [Adding Airbnb JavaScript Style Guide](#adding-airbnb-javascript-style-guide)
+- [Changing the Page `<title>`](#changing-the-page-title)
+- [Code Splitting](#code-splitting)
+- [Adding a CSS Preprocessor Sass](#adding-a-css-preprocessor-sass)
+- [Setting default port](#setting-default-port)
+- [Proxying API Requests in Development](#proxying-api-requests-in-development)
+- [Using HTTPS in Development](#using-https-in-development)
+- [Adding a Router](#adding-a-router)
+- [Adding HMR](#adding-hmr)
+- [Adding redux](#adding-redux)
+- [Adding another npm](#adding-another-npm)
 
 ## create react app typescript
 
@@ -73,7 +73,7 @@ yarn add husky lint-staged prettier
 
 [참고 - Angular 프로젝트에 prettier 코드포매터 세팅하기](https://feel5ny.github.io/2018/03/11/angular_prettier/)
 
-## prettier/Editor is VSCode
+## Prettier/Editor is VSCode
 
 `.vscode/setting.json`파일에서 다음을 추가.
 (만약, 파일이 없다면 파일 > 기본설정 > 설정 > `작업영역 설정`에 추가.)
@@ -337,6 +337,7 @@ registerServiceWorker()
 ## Adding redux
 
 * Adding redux
+* react-redux
 * Adding redux-saga
 * Adding immer
 
@@ -344,7 +345,7 @@ registerServiceWorker()
 yarn add redux react-redux redux-saga immer
 ```
 
-## Other additions
+## Adding another npm
 
 * [date-fns](https://date-fns.org/)
   * 날짜 유틸리티 라이브러리
